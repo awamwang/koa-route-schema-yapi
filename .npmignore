@@ -1,0 +1,7 @@
+/.vscode
+/examples
+.travis.*
+eslint.*
+TODO.md
+.eslintignore
+.editorconfig
