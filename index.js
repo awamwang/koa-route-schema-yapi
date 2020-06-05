@@ -3,7 +3,7 @@ module.exports = {
     if (Array.isArray(options)) {
       return options[0].list
     } else {
-      return o.list
+      return options.list
     }
   },
   getRoute: function(o) {
@@ -11,5 +11,5 @@ module.exports = {
   },
   getBodySchema: function(o) {
     return o.req_body_is_json_schema && o.req_body_other
-  },
+  }
 }

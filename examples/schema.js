@@ -2,7 +2,7 @@ const RouteSchema = require('koa-route-schema')
 const yapiParseOptions = require('../index')
 const yapiSchemaOptions = require('./schemaOptions')
 
-let routeschema = new RouteSchema({
+const routeschema = new RouteSchema({
   ...yapiParseOptions,
   prefix: 'v1',
   schemaOptions: yapiSchemaOptions
