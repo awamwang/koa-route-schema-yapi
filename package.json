@@ -1,0 +1,18 @@
+{
+  "name": "koa-route-schema-yapi",
+  "version": "0.0.1",
+  "description": "yapi export to koa-route-schema schemaOptions",
+  "main": "index.js",
+  "repository": "git@github.com:keepgoingwm/koa-route-schema-yapi.git",
+  "author": "awam.m.wang <awam.m.wang@cn.pwc.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "koa": "^2.12.0",
+    "koa-route-schema": "^0.0.1"
+  },
+  "devDependencies": {
+    "koa": "^2.12.0",
+    "koa-body": "^4.1.3",
+    "koa-route-schema": "^0.0.1"
+  }
+}
